@@ -1,0 +1,6 @@
+{
+    "solidity.compileUsingRemoteVersion": "v0.8.10+commit.fc410830",
+    "screencastMode.fontSize": 70,
+    "editor.accessibilityPageSize": 500,
+    "solidity.defaultCompiler": "remote"
+}
