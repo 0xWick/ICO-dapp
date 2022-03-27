@@ -5,10 +5,10 @@ import Web3Modal from "web3modal";
 import {
   NFT_CONTRACT_ABI,
   NFT_CONTRACT_ADDRESS,
-  TOKEN_CONTRACT_ABI,
+  TOKEN_CONTRACT_ADDRESS,
   TOKEN_CONTRACT_ABI,
 } from "../constants";
-import styles from "../styles.Home.module.css";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
 
@@ -23,7 +23,7 @@ export default function Home() {
 
   // tokensToBeClaimed keeps track of the number of tokens that can be claimed
   // based on the Crypto Dev NFT's held by the user for which they haven't claimed the tokens
-  const [tokensTobeClaimed, setTokensToBeClaimed] = useState(zero);
+  const [tokensToBeClaimed, setTokensToBeClaimed] = useState(zero);
 
   // balanceOfCryptoDevTokens keeps track of number of Crypto Dev tokens owned by an address'
   const [balanceOfCryptoDevTokens, setBalanceOfCryptoDevTokens] = useState(zero);
