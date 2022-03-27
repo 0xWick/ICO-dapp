@@ -114,7 +114,7 @@ export default function Home() {
       const address = await signer.getAddress();
 
       // call the balanceOf from the token contract to get the number of tokens held by the user 
-      const balance = tokenContract.balanceOf(address);
+      const balance = await tokenContract.balanceOf(address);
 
       // balance is already a big number, so we dont need to convert it before setting it
       setBalanceOfCryptoDevTokens(balance);
