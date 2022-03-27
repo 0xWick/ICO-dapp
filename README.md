@@ -1,5 +1,5 @@
 # Crypto token ICO dapp
-![logo](https://github.com/libgit2/libgit2sharp/raw/master/square-logo.png)
+![logo](https://github.com/LearnWeb3DAO/NFT-Collection/tree/main/my-app/public/cryptodevs/0.svg)
 > WAGMI, Keep Buidling!
 
 ## LIVE AT: https://ico-dapp-ecru.vercel.app/
